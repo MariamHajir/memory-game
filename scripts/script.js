@@ -9,7 +9,7 @@ let lockBoard = false;
 startOver.addEventListener('click',() => {location.reload()});
 cards.forEach(card => card.addEventListener('click',flipCard));
 
-
+// start over
 const refreshPage = (() =>{
     location.reload();
 })
@@ -51,6 +51,7 @@ function disableCards(){
         secondCard.removeEventListener('click',flipCard);
         resetBoard();
 }
+
 
 function unflipCards(){
     lockBoard = true;
