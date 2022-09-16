@@ -1,7 +1,6 @@
 const score = document.getElementById('score');
 const cards = document.querySelectorAll('.memory-card');
 const startOver = document.getElementById("startover");
-
 let scr = 0;
 let hasFlippedCard = false;
 let firstCard,secondCard;
